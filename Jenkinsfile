@@ -1,4 +1,7 @@
-stages {
+pipeline
+{
+    agent any
+    stages {
     stage('Build') {
         steps {
             // Placeholder step
@@ -48,5 +51,6 @@ post {
         emailext body: 'Email sent successfully !', subject: 'Jenkins mail', to: 'khushirandhawa981@gmail.com'
             
     }
+}
    
 }
