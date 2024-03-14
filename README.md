@@ -48,7 +48,7 @@ pipeline {
     
     post {
         success {
-            emailext body: 'We\'re setting up a Jenkins pipeline to integrate with our GitHub repository, automating builds and deployments to improve our workflow. We\'ll also include email notifications to keep everyone updated on build and deployment statuses. Each pipeline stage will use carefully chosen tools for efficiency, ensuring high-quality standards across our projects.', subject: 'Github-Jenkins Project ', to: 'khushpreet4804.be22@chitkara.edu.in'
+            emailext body: 'We\'re setting up a Jenkins pipeline to integrate with our GitHub repository, automating builds and deployments to improve our workflow. We\'ll also include email notifications to keep everyone updated on build and deployment statuses. Each pipeline stage will use carefully chosen tools for efficiency, ensuring high-quality standards across our projects.', subject: 'Github-Jenkins Project ', to: 'khushirandhawa981@gmail.com'
                 
         }
        
